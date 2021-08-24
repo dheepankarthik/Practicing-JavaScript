@@ -1,0 +1,16 @@
+{
+    "name": "objects_in_javascript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel js/ES6 -d js/ES5"
+    },
+    "author": "Dheepan Karthik",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0"
+    }
+}
